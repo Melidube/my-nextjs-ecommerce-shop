@@ -29,7 +29,7 @@ export default function NavBar() {
                  <div className="flex justify-between items-center mx-auto p-4">
                     <Link href="/" className="text-lg font-semibold">style<span className="text-lg text-orange-500">H</span>ouse</Link>
                     {/** nav menu */}
-                    <div className="flex space-x-4 items-center">
+                    <div className="hidden md:flex space-x-4 items-center">
                         <Link href="/" className="hover:text-orange-500">home</Link>
                         <Link href="/products" className="hover:text-orange-500">products</Link>
                         <Link href="/checkout" className="hover:text-orange-500">checkout</Link>
